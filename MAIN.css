@@ -1,1 +1,71 @@
-
+@-moz-document domain("crowdin.com") {
+.main-page .jumbotron.crowdin-hero-unit {
+    background-image: linear-gradient(-133deg,#480b0b,#f46236 17%,#000000);
+}
+.main-page .jumbotron.crowdin-hero-unit:before {
+    content: 'test';
+    background: none;
+}
+.btn-primary , .main-page .jumbotron.crowdin-hero-unit form .input-group input.form-control {
+    border-color: #ffffff;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #3f190e;
+	transition: all 1s;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ffffff21;
+	border-color: #ffffff;
+}
+.main-page .jumbotron.crowdin-hero-unit h1 span.after {
+    color: #ef7272;
+    text-decoration: underline;
+}
+.main-page .jumbotron .mouse-container .mouse-icon:before {
+background: #ef7272;
+}
+.navbar-content {
+    background-color: #fff;
+    background-color: rgba(25, 10, 5, 0.9);
+}
+.main-page .navbar .navbar-logo .white-logo {
+    top: 0px;
+    opacity: 1;
+}
+.main-page .navbar .navbar-logo .default-logo {
+    opacity: 0;
+}
+.navbar-content .navbar-nav>li>a {
+    color: #fff;
+}
+.btn-default {
+    color: white;
+    background-color: #3f190e;
+    border-color: #ffffff;
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: #ffffff21;
+	border-color: #ffffff;
+	transition: all 1s;
+}
+.navbar-content .navbar-nav>li>a:hover, .navbar-content .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #ffffff1c;
+	transition: all 1s;
+}
+.main-page .navbar:not(.scrolled) .btn.btn-primary {
+    background: #ce615f;
+}
+.margin-bottom a.btn.btn-default {
+    background: #3f190e;
+}
+.main-page .section.automatization .scheme .background-scheme {
+    border: 4px solid #30221e;
+}
+.main-page .section.automatization .scheme .holder+div:before, .main-page .section.automatization .scheme .holder+div:after {
+    border-left: 14px solid #30221e;
+}
+}
