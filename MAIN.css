@@ -1,4 +1,24 @@
 @-moz-document domain("crowdin.com") {
+/* Trig */
+ul.list-activity>li.build_project:not(.opened), ul.list-activity>li.build_project:not(.opened):hover {
+    background-color: #fff1f1;
+    border: 1px solid #fff1f1;
+    color: #547d92;
+}
+span, a, .btn-link {
+    color: #9b3030;
+}
+.navbar-inner.application-navbar {
+    background: rgba(255, 100, 100, 0.09);
+}
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+    color: #555;
+    text-decoration: none;
+    background-color: #31020775;
+    color: white !important;
+}
+/* Trig */
+
 .main-page .jumbotron.crowdin-hero-unit {
     background-image: linear-gradient(-133deg,#480b0b,#f46236 17%,#000000);
 }
@@ -40,11 +60,6 @@ background: #ef7272;
 .navbar-content .navbar-nav>li>a {
     color: #fff;
 }
-.btn-default {
-    color: white;
-    background-color: #3f190e;
-    border-color: #ffffff;
-}
 .btn-default:hover {
     color: #fff;
     background-color: #ffffff21;
@@ -55,12 +70,6 @@ background: #ef7272;
     color: #ffffff;
     background-color: #ffffff1c;
 	transition: all 1s;
-}
-.main-page .navbar:not(.scrolled) .btn.btn-primary {
-    background: #ce615f;
-}
-.margin-bottom a.btn.btn-default {
-    background: #3f190e;
 }
 .main-page .section.automatization .scheme .background-scheme {
     border: 4px solid #30221e;
