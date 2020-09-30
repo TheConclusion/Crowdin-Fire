@@ -23,7 +23,11 @@ body,
 .crowdin-tour-jumbotron__title-holder__title,
 #crowdin-tour-online-editor,
 .crowdin-integrations-jumbotron,
-.crowdin-enterprise-jumbotron
+.crowdin-enterprise-jumbotron,
+.navbar-inner.editor-navbar,
+#translation_wrapper,
+.suggestion:hover, .suggestion.checked,
+#left_panel
 {
 	background-color: var(--back);
 }
@@ -52,7 +56,8 @@ body,
 .btn.btn-outline-primary:hover,
 a>svg,
 .img-fluid.d-none.d-md-block,
-.crowdin-tour-online-editor__header .switch-button__toggle-button::after
+.crowdin-tour-online-editor__header .switch-button__toggle-button::after,
+.progress .bar-validate
 {
 	background: var(--lighter);
 }
@@ -61,7 +66,9 @@ a>svg,
 #header,
 #demo-request-form,
 .crowdin-integrations-tabholder,
-.crowdin-enterprise-early-access
+.crowdin-enterprise-early-access,
+.project-files-manager .node-inner.even,
+#editor-center-layout
 {
 	background: var(--accent);
 }
@@ -89,7 +96,10 @@ h5,
 .crowdin-header-jumbotron__description__title,
 .row.crowdin-home-parallel-work__img-wrapper.d-none.d-lg-block,
 .helper-h2,
-.crowdin-enterprise-jumbotron__form__email:focus, .crowdin-enterprise-jumbotron__form__name:focus
+.crowdin-enterprise-jumbotron__form__email:focus, .crowdin-enterprise-jumbotron__form__name:focus,
+.btn.mdc-button,
+.editor-source-container,
+.suggestion .suggestion-text
 {
 	color: var(--white);
 }
@@ -132,12 +142,14 @@ a:hover,
 
 .form-check-label#remeber-me-sso-label,
 figcaption,
-.media-body h4
+.media-body h4,
+.navbar-inner.application-navbar
 {
 	color: var(--back);
 }
 
-.media-body > p
+.media-body > p,
+.crowdin-main-mission__cards__card.list-group-item p
 {
 	color: var(--accent);
 }
@@ -156,7 +168,7 @@ figcaption,
 	border-color: var(--white);
 }
 
-.form-control:focus {
+.form-control:focus, .project-row .project-row-link:hover a.project-name {
 	border-color: var(--light);
 }
 
@@ -177,6 +189,7 @@ figcaption,
 }
 
 .navbar-brand.crowdin-navbar__logo,
+.btn.btn-primary.btn-block:hover, .progress .bar-validatem, 
 .crowdin-section.crowdin-home-testimonials {
 	display: none;
 }
@@ -192,17 +205,6 @@ figcaption,
 .crowdin-quote-section__company {
     background:white;
     border-radius: 25px;
-}
-a>svg {
-	width: 200px;
-	margin-top: 50px;
-	margin-right: 50px;
-	margin-bottom: 50px;
-	margin-left: 50px;
-	display: block;
-	text-align: center;
-	border: outset 5px;
-	height: 50px;
 }
 .crowdin-header-jumbotron__description__title,
 .crowdin-tour-jumbotron__title-holder__title,
@@ -220,4 +222,20 @@ a>svg {
 .crowdin-tour-jumbotron > .container 
 {
     background: linear-gradient(to bottom,var(--back)0,89%,var(--back)100%);	
+}
+.table .table, .table:hover .table, #profile-projects-list .project-row.locked td, #profile-projects-list .project-row.locked td, #profile-projects-list.active .project-row:hover td, #profile-projects-list.active .project-row:hover .project-row-holder, #profile-projects-list .project-row.locked .table-cell, #profile-projects-list.active .project-row:hover .table-cell {
+    background-color: transparent;
+}
+.table {
+	transition: 1s
+}
+.table:hover {
+    background: var(--back);
+    border-bottom: solid 5px var(--lighter);
+}
+
+.static-icon-trash, .static-icon-textbox, .static-icon-copy-source {
+    background-color: var(--lighter);
+    border-radius: 5px;
+    border: solid 3px var(--light);
 }
