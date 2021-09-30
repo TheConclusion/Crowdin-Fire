@@ -251,3 +251,18 @@ figcaption,
     padding: 0px 5px;
     margin: 0px 5px;
 }
+.ps-toolbar, .project-details, .grey-holder {
+    background: var(--black);
+}
+#languages_progress .language-row:hover {
+    background: var(--accent);
+}
+.project-description, ul.unstyled, ol.unstyled {
+    color: var(--postlight);
+}
+.jsoc-shr-link {
+    background: var(--postlight);
+}
+.open > .dropdown-menu > * {
+    background: var(--back);
+}
