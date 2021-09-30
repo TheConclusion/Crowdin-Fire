@@ -239,3 +239,15 @@ figcaption,
     border-radius: 5px;
     border: solid 3px var(--light);
 }
+
+.openid-login.btn-group-vertical {
+    margin: 15px;
+}
+.user-chip.mb-3.d-flex {
+    background: var(--white) !important
+}
+.logo-icon-projects {
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin: 0px 5px;
+}
